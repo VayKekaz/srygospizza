@@ -1,0 +1,29 @@
+@import "../../index";
+
+.dishMenu {
+  @extend .roundedBorder;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.menuTitle {
+  width: 100%;
+  padding: 12px 24px;
+  text-align: center;
+  font-weight: 150;
+  font-size: 48px;
+}
+
+.menuTitleAndContentDelimiter {
+  width: 80%;
+  height: 0;
+  color: #ccc;
+  margin: 8px auto
+}
+
+.dishCardContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 32px 16px;
+}

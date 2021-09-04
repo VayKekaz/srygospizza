@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="run frontend dev" type="js.build_tools.npm">
+    <package-json value="$PROJECT_DIR$/frontend/package.json" />
+    <command value="run" />
+    <scripts>
+      <script value="start" />
+    </scripts>
+    <node-interpreter value="project" />
+    <envs>
+      <env name="REACT_APP_SRYGOSPIZZA_BACKEND_URL" value="http://localhost:8080" />
+      <env name="BROWSER" value="none" />
+    </envs>
+    <method v="2" />
+  </configuration>
+</component>

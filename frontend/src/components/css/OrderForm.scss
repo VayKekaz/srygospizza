@@ -1,0 +1,51 @@
+@import "../../index";
+
+.checkoutForm {
+  @extend .roundedBorder;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.checkoutFormTitle {
+  width: 100%;
+  padding: 12px 24px;
+  text-align: center;
+  font-weight: 150;
+  font-size: 48px;
+}
+
+.checkoutFormVerticalDelimiter {
+  width: 80%;
+  height: 0;
+  color: #ccc;
+  margin: 8px auto
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.formFieldsContainer {
+  flex: 1 1 auto;
+  width: 100%;
+  padding: 16px;
+}
+
+.checkoutButton {
+  margin: 8px;
+  padding: 4px;
+  background-color: #202020;
+  border: 1px solid #ccc;
+  border-radius: 9px;
+  color: whitesmoke;
+  font-size: 1.2rem;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+.checkoutButton:disabled {
+  background-color: #909090;
+  cursor: default !important;
+}

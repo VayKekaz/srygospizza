@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="srygospizza" type="CompoundRunConfigurationType">
+    <toRun name="run backend dev" type="SpringBootApplicationConfigurationType" />
+    <toRun name="run frontend dev" type="js.build_tools.npm" />
+    <method v="2" />
+  </configuration>
+</component>

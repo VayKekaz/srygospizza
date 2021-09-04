@@ -1,0 +1,16 @@
+{
+  "name": "yandex.eda-parser",
+  "version": "1.0.0",
+  "description": "parser for yandex eda restaurants",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test",
+    "run": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^17.0.0"
+  }
+}

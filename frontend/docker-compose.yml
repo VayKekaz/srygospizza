@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+    frontend:
+        container_name: frontend
+        build:
+            context: .
+            dockerfile: Dockerfile
+            args:
+                REACT_APP_SRYGOSPIZZA_BACKEND_URL: ${SRYGOSPIZZA_BACKEND_URL}
+        image: srygospizza-frontend:latest
+        restart: unless-stopped
+        ports:
+            - "80:80"

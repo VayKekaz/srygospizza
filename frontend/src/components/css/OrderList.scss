@@ -1,0 +1,45 @@
+@import "../../index";
+
+.orderList {
+  @extend .roundedBorder;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.orderListTitle {
+  width: 100%;
+  padding: 12px 24px;
+  text-align: center;
+  font-weight: 150;
+  font-size: 48px;
+}
+
+.orderListContentAndTitleDelimiter {
+  width: 80%;
+  height: 0;
+  color: #ccc;
+  margin: 8px auto
+}
+
+.orderListBody {
+  width: 100%;
+}
+
+.orderListItem {
+  @extend .roundedBorder;
+  margin: 12px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+}
+
+.orderListItemInfo {
+  font-size: 1.2rem;
+  min-width: 20rem;
+  width: 30rem;
+}
+
+.orderListItemDishCardContainer {
+  display: flex;
+  overflow-x: scroll;
+}

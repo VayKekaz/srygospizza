@@ -1,0 +1,42 @@
+.navigationBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  background-color: #202020;
+  height: 48px;
+  padding: 0 48px;
+}
+
+.navigationLinkBar {
+  display: flex;
+  align-items: center;
+}
+
+.navigationLinkBar > a {
+  padding: 0 8px;
+  color: whitesmoke;
+}
+
+.navigationLinkBar > a:hover {
+  color: gray;
+}
+
+.userButton {
+  padding: 12px 8px;
+  align-self: stretch;
+}
+
+.userButton:hover {
+  background-color: rgba(245, 245, 245, 0.08);
+  cursor: pointer;
+}
+
+.userButton > .nickname {
+  margin-right: 12px;
+  color: whitesmoke;
+}
+
+.userButton > .userAvatar {
+  max-height: 100%;
+}

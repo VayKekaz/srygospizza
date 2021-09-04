@@ -1,0 +1,38 @@
+.dishCard {
+  cursor: pointer;
+  width: 18rem;
+  display: inline-block;
+  margin: 1rem;
+}
+
+.dishCardImage {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 14rem;
+  border-radius: 8px 8px 0 0;
+}
+
+.dishCardBody {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-top-width: 0;
+  border-radius: 0 0 8px 8px;
+  height: calc(100% - 14rem);
+}
+
+.dishPrice {
+  margin-top: 0.2rem;
+  float: right;
+  opacity: 0.8;
+}
+
+.dishName {
+  font-size: 120%;
+  font-weight: 500;
+}
+
+.dishDescription {
+  opacity: 0.9;
+}

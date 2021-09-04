@@ -1,0 +1,55 @@
+.cartItemQuantityControlButton {
+  background: white;
+  z-index: 1;
+  width: 35px;
+}
+
+.cartItemQuantityDisplay {
+  color: #a9aaac;
+  border: 1px solid #ccc;
+}
+
+.incrementCartItemQuantity {
+  bottom: 100%;
+  cursor: pointer;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-radius: 8px 8px 0 0;
+}
+
+.decrementCartItemQuantity {
+  top: 100%;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-radius: 0 0 8px 8px;
+}
+
+.incrementCartItemQuantity, .decrementCartItemQuantity {
+  display: none;
+}
+
+.cartItemQuantityControlContainer:hover > .incrementCartItemQuantity,
+.cartItemQuantityControlContainer:hover > .decrementCartItemQuantity {
+  display: block !important;
+  position: absolute;
+}
+
+.cartItemQuantityControlContainer {
+  flex-basis: content;
+  position: relative;
+  text-align: center;
+  margin-right: 12px;
+}
+
+.cartItemName {
+  flex-grow: 1;
+  flex-basis: 60%;
+}
+
+.cartItemPrice {
+  flex-basis: 20%;
+  text-align: right;
+}
